@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tick's Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Tick's - Every minute of your life is valuable, and we'll prove it! Earn tokens for every minute, and use them as you wish.</p>
+        </div>
+        <div class="timer-section">
+            <div class="timer-wrapper">
+                <div class="timer">
+                    <div class="time-unit" id="days">00</div>
+                    <div class="label">Day's</div>
+                </div>
+                <div class="timer">
+                    <div class="time-unit" id="hours">00</div>
+                    <div class="label">Hour's</div>
+                </div>
+                <div class="timer">
+                    <div class="time-unit" id="minutes">00</div>
+                    <div class="label">Minute's</div>
+                </div>
+            </div>
+            <div class="info">
+                <p>1 minute = 1 token</p>
+                <p id="token-count">0</p>
+                <p>🚀 boost: x1</p>
+            </div>
+        </div>
+        <div class="menu">
+            <button id="main">💰 Главная</button>
+            <button id="friends">🤝 Рефералы</button>
+            <button id="tasks">💼 Задания</button>
+            <button id="boost">🚀 Ускорение</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
